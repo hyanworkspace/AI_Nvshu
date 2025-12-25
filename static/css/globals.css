@@ -35,6 +35,16 @@
   font-display: swap;
 }
 
+/* Source Han Serif (思源宋体) Medium */
+@font-face {
+  font-family: "Source Han Serif";
+  src: url("/static/fonts/Source_Han_Serif/SourceHanSerifSC-Medium.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -392,4 +402,41 @@ body.agreed-style .right-panel {
 
 .circle-clickable:hover::before {
   opacity: 0.6;
+}
+
+/* Source Han Serif for homepage description and about page details */
+/* Homepage description box */
+.description-box {
+  font-family: "Source Han Serif", "XiQue YanShuTi", "Inknut Antiqua", system-ui, sans-serif;
+}
+
+.description-box h2 {
+  font-family: "Source Han Serif", "XiQue YanShuTi", "Inknut Antiqua", system-ui, sans-serif;
+  font-size: 1.5rem;
+}
+
+.description-box p {
+  font-family: "Source Han Serif", "XiQue YanShuTi", "Inknut Antiqua", system-ui, sans-serif;
+  font-size: 1.125rem;
+}
+
+/* Landing page description */
+#description {
+  font-family: "Source Han Serif", "XiQue YanShuTi", "Inknut Antiqua", system-ui, sans-serif;
+}
+
+#description h2 {
+  font-family: "Source Han Serif", "XiQue YanShuTi", "Inknut Antiqua", system-ui, sans-serif;
+  font-size: 1.5rem;
+}
+
+#description p {
+  font-family: "Source Han Serif", "XiQue YanShuTi", "Inknut Antiqua", system-ui, sans-serif;
+  font-size: 1.125rem;
+}
+
+/* About page details */
+body .max-w-4xl section p,
+body .max-w-4xl section li {
+  font-family: "Source Han Serif", "XiQue YanShuTi", "Inknut Antiqua", system-ui, sans-serif;
 }

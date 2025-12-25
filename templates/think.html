@@ -376,6 +376,7 @@
         border: 2px solid rgba(255, 253, 233, 0.6);
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1),
           inset 0 0 20px rgba(255, 253, 233, 0.2);
+        opacity: 1 !important; /* 确保文字一直显示 */
       }
 
       /* 确保媒体元素在背景层 */
@@ -388,6 +389,11 @@
       /* 覆盖层文字样式 */
       #description-overlay .description {
         text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+      }
+      
+      /* 中文描述文字增大两号 */
+      #description-overlay #chinese-desc {
+        font-size: 1.875rem !important; /* text-3xl = 1.875rem (30px) */
       }
 
       #description-overlay .poem {
@@ -405,9 +411,9 @@
         display: none; /* Safari and Chrome */
       }
 
-      /* 媒体圆形的点击提示 */
+      /* 媒体圆形 - 移除点击功能 */
       [data-component="media-circle-overlay"] {
-        cursor: pointer;
+        cursor: default;
         position: relative;
       }
 
@@ -701,7 +707,7 @@
         color: rgba(255, 253, 233, 0.72);
         font-size: 18px;
         font-weight: 500;
-        font-family: "Courier New", monospace;
+        font-family: "Source Han Serif", "XiQue YanShuTi", "Inknut Antiqua", system-ui, sans-serif;
         letter-spacing: 0.4px;
         line-height: 1.45;
         transition: color 0.4s ease, opacity 0.4s ease;

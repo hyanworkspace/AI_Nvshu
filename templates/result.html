@@ -177,14 +177,14 @@
                                 {% if char_translate %}
                                 <p class="card-translation text-base leading-relaxed tracking-wide opacity-80" data-component="char-translate">{{ char_translate }}</p>
                                 {% endif %}
-                                <div class="card-dimensions text-sm font-serif" data-component="dimensions-display">
+                                <div class="card-dimensions text-sm" data-component="dimensions-display" style="font-family: 'XiQue YanShuTi', 'Inknut Antiqua', system-ui, sans-serif;">
                                     {% if char_3dim %}
                                     <p data-component="dimensions-text">（{{ char_3dim[0] }}, {{ char_3dim[1] }}, {{ char_3dim[2] }}）</p>
                                     {% else %}
                                     <p>{{ _('No dimensions data available') }}</p>
                                     {% endif %}
                                 </div>
-                                <div class="card-dimensions text-[0.68rem] uppercase tracking-[0.35em] font-serif">{{ _('3D Dimensions') }}</div>
+                                <div class="card-dimensions text-[0.68rem] uppercase tracking-[0.35em]" style="font-family: 'XiQue YanShuTi', 'Inknut Antiqua', system-ui, sans-serif;">{{ _('3D Dimensions') }}</div>
                             </div>
                         </div>
                     </div>

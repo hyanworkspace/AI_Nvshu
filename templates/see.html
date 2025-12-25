@@ -320,9 +320,19 @@
       data-component="page-container"
       id="mainPageContainer"
     >
+      <!-- Upload Source Material Description -->
+      <div id="uploadDescription" class="absolute top-20 left-0 right-0 z-10 w-full text-center py-4 px-4" style="font-family: 'Source Han Serif', 'XiQue YanShuTi', 'Inknut Antiqua', system-ui, sans-serif;">
+        <h2 class="text-xl md:text-2xl font-medium mb-2 text-[#FFFDE9] leading-relaxed">
+          {{ _('Upload Source Material') }}
+        </h2>
+        <p class="text-sm md:text-base text-[#FFFDE9]/90 opacity-90 leading-relaxed max-w-2xl mx-auto">
+          {{ _('The system will generate AI Nüshu characters based on your media content.') }}
+        </p>
+      </div>
+
       <!-- Main content -->
       <div
-        class="relative z-10 h-full w-full flex flex-row items-center justify-center"
+        class="relative z-10 h-full w-full flex flex-row items-center justify-center pt-24 md:pt-28"
         data-component="main-content"
       >
         <!-- Circles Container for symmetrical alignment -->
@@ -552,6 +562,16 @@
         class="relative z-10 h-full w-full flex flex-col items-center justify-center"
         data-component="confirmation-main-content"
       >
+        <!-- Confirmation Description -->
+        <div class="absolute top-20 left-0 right-0 z-10 w-full text-center py-4 px-4" style="font-family: 'Source Han Serif', 'XiQue YanShuTi', 'Inknut Antiqua', system-ui, sans-serif;">
+          <h2 class="text-xl md:text-2xl font-medium mb-2 text-[#FFFDE9] leading-relaxed">
+            {{ _('Use this media as source material?') }}
+          </h2>
+          <p class="text-sm md:text-base text-[#FFFDE9]/90 opacity-90 leading-relaxed max-w-2xl mx-auto">
+            {{ _('We do not store your media data.') }}
+          </p>
+        </div>
+
         <!-- Privacy statement -->
         <!-- <p class="text-center text-[min(1.2rem,1.6vw)] mb-12 text-[rgb(255,251,233)]" data-component="privacy-statement">
                 By uploading, you agree to our Privacy & Data Usage Statement
@@ -559,7 +579,7 @@
 
         <!-- Preview Circle -->
         <div
-          class="relative w-[25vw] max-w-[640px] mb-10"
+          class="relative w-[25vw] max-w-[640px] mb-10 mt-24 md:mt-28"
           id="previewContainer"
           data-component="preview-container"
         >

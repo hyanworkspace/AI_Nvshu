@@ -381,6 +381,12 @@ function smoothTransitionToConfirmation(url, fileType) {
             confirmationPage.style.display = 'flex';
             confirmationPage.style.opacity = '0';
             
+            // 隐藏主页面说明文字
+            const uploadDescription = document.getElementById('uploadDescription');
+            if (uploadDescription) {
+                uploadDescription.style.display = 'none';
+            }
+            
             // 显示预加载的视频
             const videoPreview = document.getElementById('videoPreview');
             const imgPreview = document.getElementById('imagePreview');
@@ -415,6 +421,12 @@ function smoothTransitionToConfirmation(url, fileType) {
         confirmationPage.classList.remove('hidden');
         confirmationPage.style.display = 'flex';
         confirmationPage.style.opacity = '1';
+        
+        // 隐藏主页面说明文字
+        const uploadDescription = document.getElementById('uploadDescription');
+        if (uploadDescription) {
+            uploadDescription.style.display = 'none';
+        }
         
         const videoPreview = document.getElementById('videoPreview');
         const imgPreview = document.getElementById('imagePreview');
@@ -629,6 +641,12 @@ function seamlessTransitionToConfirmation(url, fileType) {
             confirmationPage.style.display = 'flex';
             confirmationPage.style.opacity = '0';
             
+            // 隐藏主页面说明文字
+            const uploadDescription = document.getElementById('uploadDescription');
+            if (uploadDescription) {
+                uploadDescription.style.display = 'none';
+            }
+            
             // 显示正确的媒体预览（媒体已预加载）
             if (fileType === 'image') {
                 imgPreview.style.display = 'block';
@@ -665,6 +683,12 @@ function seamlessTransitionToConfirmation(url, fileType) {
         confirmationPage.classList.remove('hidden');
         confirmationPage.style.display = 'flex';
         confirmationPage.style.opacity = '1';
+        
+        // 隐藏主页面说明文字
+        const uploadDescription = document.getElementById('uploadDescription');
+        if (uploadDescription) {
+            uploadDescription.style.display = 'none';
+        }
         
         if (fileType === 'image') {
             imgPreview.style.display = 'block';
@@ -834,6 +858,12 @@ reUploadBtn.addEventListener('click', () => {
     
     privacyPolicy.classList.add('hidden');
     privacyPolicy.style.display = 'none';
+    
+    // 显示主页面说明文字
+    const uploadDescription = document.getElementById('uploadDescription');
+    if (uploadDescription) {
+        uploadDescription.style.display = 'block';
+    }
     
     const mainContainer = document.querySelector('.flex.flex-row.items-center.justify-center');
     if (mainContainer) {
@@ -1012,6 +1042,12 @@ function hideMainContentWithTransition(onComplete = null) {
 function showConfirmationPageWithTransition() {
     confirmationPage.classList.remove('hidden');
     confirmationPage.style.display = 'flex';
+    
+    // 隐藏主页面说明文字
+    const uploadDescription = document.getElementById('uploadDescription');
+    if (uploadDescription) {
+        uploadDescription.style.display = 'none';
+    }
     
     if (typeof gsap !== 'undefined') {
         const circle = document.querySelector('[data-component="preview-circle"]');

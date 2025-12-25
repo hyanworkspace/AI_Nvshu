@@ -150,47 +150,8 @@ function initializeMediaDisplay(mediaUrl, mediaType) {
     element: orbitMediaElement,
   };
 
-  // 添加点击事件，允许用户切换显示原始媒体或描述
-  const mediaCircle = document.querySelector(
-    '[data-component="media-circle-overlay"]'
-  );
-  if (mediaCircle) {
-    let showingOverlay = false;
-    mediaCircle.addEventListener("click", () => {
-      const descriptionOverlay = document.getElementById("description-overlay");
-      if (descriptionOverlay) {
-        if (showingOverlay) {
-          // 隐藏覆盖层
-          if (typeof gsap !== "undefined") {
-            gsap.to(descriptionOverlay, {
-              opacity: 0,
-              duration: 0.3,
-              ease: "power2.out",
-            });
-          } else {
-            descriptionOverlay.style.opacity = "0";
-          }
-          showingOverlay = false;
-        } else {
-          // 显示覆盖层
-          if (typeof gsap !== "undefined") {
-            gsap.to(descriptionOverlay, {
-              opacity: 1,
-              duration: 0.3,
-              ease: "power2.out",
-            });
-          } else {
-            descriptionOverlay.style.opacity = "1";
-          }
-          showingOverlay = true;
-        }
-      }
-    });
-
-    // 添加鼠标悬停提示
-    // mediaCircle.title =
-    //   "Click to toggle between original media and analysis results";
-  }
+  // 移除点击切换功能，确保文字一直显示
+  // 不再添加点击事件，description-overlay 将始终保持可见
 }
 
 async function typeWriter(element, texts) {
@@ -1076,7 +1037,7 @@ async function describeVideo(mediaUrl) {
     descriptionOverlay.style.left = "7.5%";
     descriptionOverlay.innerHTML = `
             <div class="w-full h-full flex flex-col items-center justify-center space-y-4 px-8 py-6 overflow-y-scroll scrollbar-hide">
-                <div class="text-gray-800 text-lg font-medium leading-relaxed text-center max-w-[90%]">
+                <div class="text-gray-800 text-3xl font-medium leading-relaxed text-center max-w-[90%]">
                     <div id="chinese-desc" class="description"></div>
                 </div>
                 <div class="w-12 h-px bg-gray-300 opacity-50"></div>
@@ -1085,6 +1046,8 @@ async function describeVideo(mediaUrl) {
                 </div>
             </div>
         `;
+    // 确保描述覆盖层一直显示
+    descriptionOverlay.style.opacity = "1";
 
     // 添加覆盖层到媒体圆形容器
     const mediaCircle = document.querySelector(

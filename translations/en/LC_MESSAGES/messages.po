@@ -36,9 +36,10 @@ msgstr ""
 
 #: templates/about.html:40
 msgid ""
-"Nüshu (女书), also called \"Women's Script,\" is a unique language created "
-"and used exclusively by women in Hunan Province, China, for centuries to "
-"communicate Chinese in a world where they were denied formal education."
+"Nüshu (女书), Also called \"Women's Script,\" is a unique language created "
+"and used exclusively by women in Hunan Province, China. In pre-modern times, "
+"local women were denied the right to read and write, so they created Nüshu "
+"as a secret means of communication."
 msgstr ""
 
 #: templates/about.html:43 templates/landingpage.html:327
@@ -412,8 +413,9 @@ msgstr ""
 #: templates/landingpage.html:324
 msgid ""
 "Nüshu （女书）, Also called \"Women's Script,\" is a unique language created "
-"and used exclusively by women in Hunan Province, China, for centuries to "
-"communicate Chinese in a world where they were denied formal education."
+"and used exclusively by women in Hunan Province, China. In pre-modern times, "
+"local women were denied the right to read and write, so they created Nüshu "
+"as a secret means of communication."
 msgstr ""
 
 #: templates/result.html:7
@@ -475,6 +477,22 @@ msgstr ""
 #: templates/result.html:230
 msgid "Taking you to the final page..."
 msgstr ""
+
+#: templates/see.html:318
+msgid "Upload Source Material"
+msgstr "Upload Source Material"
+
+#: templates/see.html:321
+msgid "The system will generate AI Nüshu characters based on your media content."
+msgstr "The system will generate AI Nüshu characters based on your media content."
+
+#: templates/see.html:568
+msgid "Use this media as source material?"
+msgstr "Use this media as source material?"
+
+#: templates/see.html:571
+msgid "We do not store your media data."
+msgstr "We do not store your media data."
 
 #: templates/see.html:359
 msgid "Camera icon"

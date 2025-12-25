@@ -36,10 +36,11 @@ msgstr "关于 AI 女书"
 
 #: templates/about.html:40
 msgid ""
-"Nüshu (女书), also called \"Women's Script,\" is a unique language created "
-"and used exclusively by women in Hunan Province, China, for centuries to "
-"communicate Chinese in a world where they were denied formal education."
-msgstr "女书（Nüshu），又称“女子文字”，由湖南女性创造并沿用数百年，用于在无法接受正规教育的环境中表达汉语。"
+"Nüshu (女书), Also called \"Women's Script,\" is a unique language created "
+"and used exclusively by women in Hunan Province, China. In pre-modern times, "
+"local women were denied the right to read and write, so they created Nüshu "
+"as a secret means of communication."
+msgstr "女书（Nüshu），又称"女子文字"，是湖南女性创造并独用的独特语言。在前现代时期，当地女性被剥夺读写权利，因此她们创造了女书作为秘密的交流方式。"
 
 #: templates/about.html:43 templates/landingpage.html:327
 msgid ""
@@ -420,9 +421,10 @@ msgstr "AI 女书（AI Nüshu）"
 #: templates/landingpage.html:324
 msgid ""
 "Nüshu （女书）, Also called \"Women's Script,\" is a unique language created "
-"and used exclusively by women in Hunan Province, China, for centuries to "
-"communicate Chinese in a world where they were denied formal education."
-msgstr "女书（Nüshu），又称“女子书写体系”，是一种由湖南女性创造并沿用数百年的特殊文字，用于在无法接受正式教育的社会中记录和传达汉语。"
+"and used exclusively by women in Hunan Province, China. In pre-modern times, "
+"local women were denied the right to read and write, so they created Nüshu "
+"as a secret means of communication."
+msgstr "女书（Nüshu），又称"女子文字"，是湖南女性创造并独用的独特语言。在前现代时期，当地女性被剥夺读写权利，因此她们创造了女书作为秘密的交流方式。"
 
 #: templates/result.html:7
 msgid "Nüshu Character Created"
@@ -484,6 +486,22 @@ msgstr "保存成功！"
 msgid "Taking you to the final page..."
 msgstr "正在带你前往结果页面..."
 
+#: templates/see.html:318
+msgid "Upload Source Material"
+msgstr "上传造字来源"
+
+#: templates/see.html:321
+msgid "The system will generate AI Nüshu characters based on your media content."
+msgstr "系统将根据媒体内容，创造AI女书字符"
+
+#: templates/see.html:568
+msgid "Use this media as source material?"
+msgstr "使用此媒体作为造字来源吗？"
+
+#: templates/see.html:571
+msgid "We do not store your media data."
+msgstr "我们不会储存您的媒体数据。"
+
 #: templates/see.html:359
 msgid "Camera icon"
 msgstr "相机图标"
@@ -536,7 +554,7 @@ msgid ""
 "response. We do not store or share your content with third parties, and "
 "all uploaded content is automatically deleted after processing. No "
 "personal identification information is collected."
-msgstr "我们尊重并保护您的隐私。您上传的图片或视频仅用于生成艺术化回应，我们不会存储或分享您的内容，所有文件在处理完成后会自动删除。我们不会收集任何可识别个人身份的信息。"
+msgstr "我们尊重并保护您的隐私。您上传的图片或视频仅用于生成艺术化回应，我们不会未经允许存储或分享您的媒体内容，所有媒体文件在处理完成后会自动删除。我们不会收集任何可识别个人身份的信息。"
 
 #: templates/see.html:642
 msgid "Yes, I agree"
