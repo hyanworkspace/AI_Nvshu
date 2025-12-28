@@ -40,13 +40,13 @@ msgid ""
 "and used exclusively by women in Hunan Province, China. In pre-modern times, "
 "local women were denied the right to read and write, so they created Nüshu "
 "as a secret means of communication."
-msgstr "女书（Nüshu），又称"女子文字"，是湖南女性创造并独用的独特语言。在前现代时期，当地女性被剥夺读写权利，因此她们创造了女书作为秘密的交流方式。"
+msgstr "女书是一种专门由女性创造和使用的文字，起源于中国湖南江永县一代。在旧时代，当地女性不可以读书识字，所以当地的女性发明了女书，用于秘密交流。"
 
 #: templates/about.html:43 templates/landingpage.html:327
 msgid ""
 "Can AI learn from ancient Chinese women and create their own secret "
 "language?"
-msgstr "AI 能否向古代中国女性学习，创造属于自己的秘密语言？"
+msgstr "那么，AI能否学习旧时代的中国妇女，产生自己的语言？"
 
 #: templates/about.html:46 templates/landingpage.html:330
 msgid ""
@@ -54,7 +54,7 @@ msgid ""
 "China to create a new language system, symbolizing the defiance of "
 "patriarchal constraints and the emergence of language in a non-Western, "
 "feminist context."
-msgstr "本项目训练 AI 代理模仿前现代中国未受教育的女性，创造全新的语言体系，以象征对父权束缚的抗争，并呈现非西方语境下的女性主义语言诞生。"
+msgstr ""AI女书"是一个交互艺术项目，将计算语言学与女书相结合。该项目通过模拟，尝试让AI置身于旧时代女性的处境，从而创造出一套新的语言系统。这象征着对旧时代约束的反抗，以及语言在非西方、女性主义语境下的涌现。"
 
 #: templates/about.html:67
 msgid ""
@@ -65,9 +65,7 @@ msgid ""
 "human machine language under human authority, both metaphorically and "
 "practically. Essentially, we integrate cultural phenomena into an AI "
 "system."
-msgstr ""
-"这是第一个以计算语言学视角解读女书的艺术项目。两个 AI "
-"代理模拟古代女性如何在父权社会的束缚下创作出独特语言，这一文化现象与人类权威下非人机器语言的诞生彼此呼应，我们将这种文化现象注入 AI 系统。"
+msgstr "这是首个从计算语言学视角诠释女书的艺术项目。两个AI Agent模拟了旧时代妇女在父权社会的限制下发展出独特语言的过程。这一文化现象，与人类权威下机器语言的涌现形成呼应——从本质上说，我们将文化现象融入了AI系统。"
 
 #: templates/about.html:78
 msgid ""
@@ -76,84 +74,82 @@ msgid ""
 "machine's environmental observations and feedback, mirroring the natural "
 "formation of human languages. The meaning of language in vector space "
 "gradually emerges into the symbols in the system."
-msgstr ""
-"不同于摩斯电码、马尔可夫链或人造语言等预设体系，AI "
-"女书依托机器对环境的观察与反馈自发演化，映射出人类语言的自然形成过程，向量空间中的语言含义逐渐凝聚为系统符号。"
+msgstr "与摩尔斯电码、马尔可夫链或虚构的人造语言不同，AI女书并非基于预设规则：它从机器对环境的观察与反馈中有机演化而来，如同人类语言的自然形成。向量空间中的语义，逐渐涌现为系统中的符号。"
 
 #: templates/about.html:81
 msgid ""
 "As this new language is decipherable and learnable by humans, especially "
 "Chinese speakers, it inherently challenges the existing paradigm where "
 "humans are the linguistic authorities and machines are the learners."
-msgstr "当这门语言能够被人类——尤其是中文使用者——理解与学习时，它天然地挑战了“人类为语言权威、机器为学习者”的既有范式。"
+msgstr "这套新语言可以被人类解读和学习，尤其是中文使用者。这从根本上挑战了一个既有范式：人类是语言的权威，机器是学习者。"
 
 #: templates/about.html:97
 msgid "Awards"
 msgstr "奖项"
 
 #: templates/about.html:99
-msgid "2025 Lumen Prize, Carla Rapoport Award, winner"
-msgstr "2025 Lumen Prize Carla Rapoport 奖获奖者"
+msgid "2024 Lumen Prize, Carla Rapoport Award, winner"
+msgstr "2024 Lumen Prize 流明奖, Carla Rapoport Award, winner"
 
 #: templates/about.html:100
-msgid "2025 Red Dot Design Concept Award, winner"
-msgstr "2025 红点概念设计奖获奖者"
+msgid "2024 Red Dot Design Concept Award, winner"
+msgstr "2024 红点设计概念大奖, 获奖作品"
 
 #: templates/about.html:101
-msgid "Ars Electronica 2026, Digital Humanity Award, honorary mention"
-msgstr "2026 林茨电子艺术节数字人文奖荣誉提名"
+msgid "Ars Electronica 2025, Digital Humanity Award, honorary mention"
+msgstr "2025 Prix Ars Electronica 林茨电子艺术大奖, 数字人文奖, 荣誉提名"
 
 #: templates/about.html:105
 msgid "Publications"
-msgstr "出版物"
+msgstr "论文"
 
 #: templates/about.html:108
 msgid "Yuqian Sun, Yuying Tang, Ze Gao, Zhijun Pan, Chuyan Xu et al. 2023."
-msgstr "Yuqian Sun、Yuying Tang、Ze Gao、Zhijun Pan、Chuyan Xu 等，2023。"
+msgstr ""
 
 #: templates/about.html:109
 msgid ""
 "AI Nüshu: An Exploration of Language Emergence in Sisterhood Through the "
 "Lens of Computational Linguistics."
-msgstr "AI Nüshu：在计算语言学视角下探讨姐妹文化中的语言涌现。"
+msgstr ""
 
 #: templates/about.html:110
 msgid ""
 "In SIGGRAPH Asia 2023 Art Papers (SA '23). Association for Computing "
 "Machinery, New York, NY, USA, Article 4, 1–7."
-msgstr "收录于 SIGGRAPH Asia 2023 艺术论文（SA '23），计算机协会出版，纽约，美国，文章 4，第 1–7 页。"
+msgstr ""
 
 #: templates/about.html:119
 msgid "Credits"
-msgstr "致谢"
+msgstr "制作人员"
 
 #: templates/about.html:121
 msgid "Artist: Yuqian Sun"
-msgstr "艺术家：孙雨倩"
+msgstr "艺术家: Yuqian Sun （孙羽茜）"
 
 #: templates/about.html:122
 msgid "AI language system development: Zhijun Pan, Yuqian Sun"
-msgstr "AI 语言系统开发：潘志俊、孙雨倩"
+msgstr "AI语言系统研发: Zhijun Pan, Yuqian Sun"
 
 #: templates/about.html:123
 msgid "Unity development: Chuyan Xu"
-msgstr "Unity 开发：徐初晗"
+msgstr "Unity研发: Chuyan Xu"
 
 #: templates/about.html:124
 msgid "Website development:"
-msgstr "网站开发："
+msgstr "网页版开发:"
 
 #: templates/about.html:125
 msgid "Research work: Yuqian Sun, Yuying Tang, Yanrang Wang"
-msgstr "研究工作：孙雨倩、唐雨莹、王延让"
+msgstr "学术研究: Yuqian Sun, Yuying Tang, Yanrang Wang"
 
 #: templates/about.html:126
 msgid "Advisors: Tristan Braud, Zhigang Wang, Chang Hee Lee, Ali Asadipour"
-msgstr "指导：Tristan Braud、王志刚、Chang Hee Lee、Ali Asadipour"
+msgstr "导师: Tristan Braud, Zhigang Wang, Chang Hee Lee, Ali Asadipour"
 
 #: templates/about.html:127
 msgid "Supported by Lumen Prize - Carla Rapoport Award."
-msgstr "由 Lumen Prize - Carla Rapoport 奖资助。"
+msgstr "由流明奖Carla Rapoport Award支持。"
 
 #: templates/about.html:130
 msgid "About the artist"
@@ -165,9 +161,7 @@ msgid ""
 "developer and AI researcher based in London. Yuqian aims to create "
 "\"alive\" narrative experiences that extend beyond video games and into "
 "our daily lives through conversational AI agents."
-msgstr ""
-"孙雨倩（Uchan，亦称 CheeseTalk）是常驻伦敦的艺术家、游戏开发者与 AI 研究者，致力于借助对话式 AI "
-"代理打造超越电子游戏、融入日常生活的“鲜活”叙事体验。"
+msgstr "孙羽茜，网名CheeseTalk，是一位常驻伦敦的艺术家、游戏开发者与AI研究者。她致力于通过对话式AI代理，创造超越电子游戏、延伸至日常生活的"活"的叙事体验。"
 
 #: templates/about.html:135
 msgid ""
@@ -175,9 +169,7 @@ msgid ""
 "galleries and tech conferences, including SIGGRAPH, CVPR, NeurIPS, GDC "
 "and New York Times Square. She won the Red Dot Design Award and Lumen "
 "Prize in 2024."
-msgstr ""
-"她的跨学科艺术与研究作品曾在 SIGGRAPH、CVPR、NeurIPS、GDC 及纽约时代广场等展会与科技论坛展出，并于 2024 "
-"年获得红点设计奖与 Lumen Prize。"
+msgstr "她的跨学科艺术与研究曾亮相于多个画廊与技术会议，包括SIGGRAPH、CVPR、NeurIPS、GDC及纽约时代广场。她荣获红点设计奖与流明奖，并获林茨电子艺术大奖提名。"
 
 #: templates/about.html:138
 msgid "Personal website:"
@@ -424,7 +416,7 @@ msgid ""
 "and used exclusively by women in Hunan Province, China. In pre-modern times, "
 "local women were denied the right to read and write, so they created Nüshu "
 "as a secret means of communication."
-msgstr "女书（Nüshu），又称"女子文字"，是湖南女性创造并独用的独特语言。在前现代时期，当地女性被剥夺读写权利，因此她们创造了女书作为秘密的交流方式。"
+msgstr "女书是一种专门由女性创造和使用的文字，起源于中国湖南江永县一代。在旧时代，当地女性不可以读书识字，所以当地的女性发明了女书，用于秘密交流。"
 
 #: templates/result.html:7
 msgid "Nüshu Character Created"

@@ -88,15 +88,15 @@ msgid "Awards"
 msgstr ""
 
 #: templates/about.html:99
-msgid "2025 Lumen Prize, Carla Rapoport Award, winner"
+msgid "2024 Lumen Prize, Carla Rapoport Award, winner"
 msgstr ""
 
 #: templates/about.html:100
-msgid "2025 Red Dot Design Concept Award, winner"
+msgid "2024 Red Dot Design Concept Award, winner"
 msgstr ""
 
 #: templates/about.html:101
-msgid "Ars Electronica 2026, Digital Humanity Award, honorary mention"
+msgid "Ars Electronica 2025, Digital Humanity Award, honorary mention"
 msgstr ""
 
 #: templates/about.html:105
